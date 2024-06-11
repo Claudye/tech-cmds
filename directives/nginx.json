@@ -1,0 +1,20 @@
+[
+  {
+    "name": "http",
+    "description": "The HTTP block in NGINX configuration defines global HTTP settings and includes directives for handling HTTP requests, serving content, and managing connections. It is used to set up various server-wide configurations for HTTP traffic.",
+    "ignoreCase": false,
+    "options": [],
+    "examples": [
+      {
+        "description": "Basic HTTP configuration with server tokens disabled and a client body size limit.",
+        "config": "http {\n    server_tokens off;\n    client_max_body_size 10M;\n    sendfile on;\n    tcp_nopush on;\n    keepalive_timeout 65;\n}",
+        "file": "conf"
+      },
+      {
+        "description": "Example of configuring HTTP with SSL settings.",
+        "config": "http {\n    server_tokens off;\n    ssl_protocols TLSv1.2 TLSv1.3;\n    ssl_ciphers HIGH:!aNULL:!MD5;\n    ssl_prefer_server_ciphers on;\n    client_max_body_size 20M;\n    sendfile on;\n    keepalive_timeout 70;\n}",
+        "file": "conf"
+      }
+    ]
+  }
+]
