@@ -1,0 +1,26 @@
+[
+  {
+    "name": "NGINX",
+    "paths": ["directives/nginx.json"],
+    "slug": "nginx",
+    "description": "NGINX is a high-performance web server, reverse proxy server, and load balancer. It is known for its stability, rich feature set, simple configuration, and low resource consumption.",
+    "website": "https://nginx.org/",
+    "features": [
+      "Serving static files",
+      "Reverse proxying",
+      "Load balancing",
+      "SSL/TLS termination",
+      "HTTP/2 support",
+      "Caching",
+      "Rate limiting",
+      "Dynamic module support"
+    ],
+    "use_cases": [
+      "Hosting websites",
+      "Load balancing for web applications",
+      "Reverse proxying for backend servers",
+      "Serving static content quickly",
+      "Handling large amounts of concurrent connections"
+    ]
+  }
+]
