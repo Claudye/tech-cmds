@@ -1,0 +1,13 @@
+{
+  "name": "cmd, alias-cmd",
+  "description": "Example of command",
+  "ignoreCase": false,
+  "options": [
+    {
+      "name": "-h,--help",
+      "description": "",
+      "ignoreCase": false
+    }
+  ],
+  "examples": []
+}
